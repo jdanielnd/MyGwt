@@ -1,0 +1,7 @@
+This is the Google GWT main tutorial, called stockWatcher
+you can find it here : http://code.google.com/webtoolkit/doc/1.6/tutorial/create.html
+
+Added items : 
+ Real Time (20 minutes delayed actually) Yahoo finance Data, to have live quotes.
+ Designed with GWT Designer
+ More to come but will start it in another project.
