@@ -1,0 +1,67 @@
+/* Formatting specific to the StockWatcher application */
+
+body {
+  padding: 10px;
+}
+
+/* stock list header row */
+.watchListHeader {
+	color: white;
+	margin: 1px;
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	background-color: #2062B8;
+	table-layout: auto;
+}
+
+/* stock list flex table */
+.watchList {
+	margin-bottom: 6px;
+	padding: 2px;
+	border: 1px solid silver;
+}
+
+/* stock list Price and Change fields */
+.watchListNumericColumn {
+  text-align: right;
+  width:8em;
+}
+
+/* stock list Remove column */
+.watchListRemoveColumn {
+  text-align: center;
+}
+
+/* Add Stock panel */
+.addPanel {
+  margin: 10px 0px 15px 0px;
+}
+
+.gwt-Button {
+    background:transparent url(images/hborder.png) repeat-x scroll 0px -27px;
+    border:1px outset #CCCCCC;
+    cursor:pointer;
+    font-size:small;
+    margin:0pt;
+    padding:3px 5px;
+    text-decoration:none;
+}
+
+/* stock list, the Remove button */
+.gwt-Button-remove {
+  width: 50px;
+}
+
+/* Dynamic color changes for the Change field */
+.noChange {
+  color: black;
+}
+
+.positiveChange {
+  color: green;
+}
+
+.negativeChange {
+  color: red;
+}

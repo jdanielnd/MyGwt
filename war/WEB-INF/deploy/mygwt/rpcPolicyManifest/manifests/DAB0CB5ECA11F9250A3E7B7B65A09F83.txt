@@ -1,0 +1,2 @@
+serviceClass: sk.com.gwt.client.StockQuoteService
+path: E4429C93B748407596FC307C2DF8159B.gwt.rpc
